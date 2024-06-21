@@ -47,10 +47,10 @@
         />
 
         <div class="page">Page</div>
-        <div class="home-contact-wrapper">
-          <div class="home-contact">
+        <div class="contact-us">
+          <div class="contact-info">
             <div class="home" id="homeText">Home</div>
-            <div class="contact-us" id="contactUsText">Contact us</div>
+            <div class="contact-us1">Contact us</div>
           </div>
         </div>
         <div class="button">
@@ -77,7 +77,7 @@
       <div class="navigation1">
         <div class="items">
           <div class="home1">Home</div>
-          <div class="contact-us1">Contact us</div>
+          <div class="contact-us2">Contact us</div>
           <div class="button2">
             <div class="button3">Button</div>
           </div>
@@ -141,7 +141,7 @@
         <div class="items4">
           <div class="page10">Page</div>
           <div class="home2">Home</div>
-          <div class="contact-us2">Contact us</div>
+          <div class="contact-us3">Contact us</div>
           <div class="button4">
             <div class="button5">Button</div>
           </div>
@@ -157,7 +157,7 @@
         <div class="items5">
           <div class="page11">Page</div>
           <div class="home3" id="homeText3">Home</div>
-          <div class="contact-us3">Contact us</div>
+          <div class="contact-us4">Contact us</div>
           <div class="button6">
             <div class="button7">Button</div>
           </div>
@@ -169,7 +169,7 @@
           src="./public/agriwe-transparent-1@2x.png"
         />
       </div>
-      <section class="features">
+      <div class="content">
         <div class="top-layout">
           <div class="crop-predict">
             <img
@@ -259,7 +259,7 @@
             <div class="header1">
               <div class="plan-3-name">Plan 3 name</div>
               <div class="price1">
-                <h2 class="agri-we-chatbot">Agri-we Chatbot</h2>
+                <div class="agri-we-chatbot">Agri-we Chatbot</div>
                 <div class="per-month2">per month</div>
               </div>
             </div>
@@ -283,13 +283,13 @@
                 </ul>
               </div>
             </div>
-            <button class="button10" id="button2">
+            <button class="button10">
               <div class="select2">Select</div>
             </button>
           </div>
           <div class="graphic"></div>
         </div>
-      </section>
+      </div>
     </div>
 
     <script>
@@ -299,41 +299,27 @@
           window.location.href = "home-page.html";
         });
       }
-      
-      var contactUsText = document.getElementById("contactUsText");
-      if (contactUsText) {
-        contactUsText.addEventListener("click", function (e) {
-          // Please sync "contact us" to the project
-        });
-      }
-      
+
       var homeText3 = document.getElementById("homeText3");
       if (homeText3) {
         homeText3.addEventListener("click", function (e) {
           window.location.href = "home-page.html";
         });
       }
-      
+
       var button = document.getElementById("button");
       if (button) {
         button.addEventListener("click", function (e) {
           window.location.href = "./crop-prediction.html";
         });
       }
-      
+
       var button1 = document.getElementById("button1");
       if (button1) {
         button1.addEventListener("click", function (e) {
           window.location.href = "./fertilizer-recommendation.html";
         });
       }
-      
-      var button2 = document.getElementById("button2");
-      if (button2) {
-        button2.addEventListener("click", function (e) {
-          window.location.href = "./coming-soon.html";
-        });
-      }
-      </script>
+    </script>
   </body>
 </html>
